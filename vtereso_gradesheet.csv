@@ -1,0 +1,41 @@
+Test,Status,Points,Max,Message
+Malloc_a_7737,PASSED,3,3,
+Malloc_a_Double,PASSED,2,2,
+Coalesce_free_block_before,PASSED,3,3,
+Realloc_size_zero_expect_NULL,PASSED,3,3,
+Realloc_Payload_Integrity_And_Moved,PASSED,3,3,
+Realloc_Both_Extend_In_Place_And_Move,FAILED,0,3,['Realloc_Both_Extend_In_Place_And_Move.c:52: The expression total == 4096 is false.']
+Info_count_coalesces,TIMEOUT,0,1,TIMEOUT
+Malloc_a_Short,PASSED,2,2,
+Realloc_larger_fits_contiguous_absorb_splinter,ERRORED,0,3,['The test crashed.']
+Malloc_four_pages,PASSED,3,3,
+Info_count_internal,TIMEOUT,0,1,TIMEOUT
+Realloc_larger_must_move,PASSED,3,3,
+External_fragmentation_ask_sf_sbrk_for_more_space,PASSED,3,3,
+ManagingMemory_consecutive_list,PASSED,3,3,
+Free_block_check_header_footer_values,PASSED,2,2,
+Free_Coalesce_Forward_2_Times,PASSED,3,3,
+Realloc_smaller_size_ptr_should_not_move,PASSED,3,3,
+Info_count_allocations,TIMEOUT,0,1,TIMEOUT
+Malloc_a_Char,PASSED,2,2,
+Realloc_larger_fits_contiguous,PASSED,3,3,
+StressTest,PASSED,3,3,
+Info_Malloc_And_Free,TIMEOUT,0,3,TIMEOUT
+Malloc_Whole_First_Page_Multiple_Times,FAILED,0,3,['Malloc_Whole_First_Page_Multiple_Times.c:46: The expression freelist_head->prev == ((void *)0) is false.']
+Malloc_four_pages_across_multiple_mallocs_then_frees_all,PASSED,3,3,
+Malloc_a_LongDouble,PASSED,2,2,
+Check_next_prev_pointers_of_free_block_at_head_of_list_3FreeBlocks,FAILED,0,2,['Check_next_prev_pointers_of_free_block_at_head_of_list_3FreeBlocks.c:41: Previous pointer not null']
+Malloc_three_pages,PASSED,3,3,
+Malloc_one_page,PASSED,3,3,
+Coalesce_free_block_after,PASSED,3,3,
+Malloc_an_Integer,PASSED,2,2,
+Coalesce_no_coalescing,PASSED,2,2,
+Splitting,PASSED,3,3,
+Info_count_frees,TIMEOUT,0,1,TIMEOUT
+Malloc_two_pages,PASSED,3,3,
+Malloc_773_Bytes,PASSED,2,2,
+Coalesce_free_before_and_after,PASSED,3,3,
+Check_next_prev_pointers_of_free_block_at_head_of_list_BaseCase,PASSED,2,2,
+Splinter,PASSED,3,3,
+Info_count_external,TIMEOUT,0,1,TIMEOUT
+Required Unit Tests,Counted,0,3,Unittests
